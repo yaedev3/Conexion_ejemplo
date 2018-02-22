@@ -45,9 +45,11 @@
             this.dataGridViewData.AllowUserToDeleteRows = false;
             this.dataGridViewData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewData.Location = new System.Drawing.Point(12, 100);
+            this.dataGridViewData.MultiSelect = false;
             this.dataGridViewData.Name = "dataGridViewData";
             this.dataGridViewData.ReadOnly = true;
             this.dataGridViewData.RowHeadersVisible = false;
+            this.dataGridViewData.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewData.Size = new System.Drawing.Size(237, 181);
             this.dataGridViewData.TabIndex = 0;
             this.dataGridViewData.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewData_CellClick);

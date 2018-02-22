@@ -18,6 +18,7 @@ namespace Conexion_ejemplo
         private OleDbCommand command;//Comando sql
         private OleDbDataAdapter adapter;//Adapta la estructura al manejador
         private DataTable table;
+        private int id;
 
         public Form1()
         {
@@ -30,17 +31,41 @@ namespace Conexion_ejemplo
 
         private void buttonModify_Click(object sender, EventArgs e)
         {
+            string name = comboBoxNames.SelectedItem.ToString();
+            string location = textBoxLocation.Text;
+            connection.Open();
 
+            if (connection.State != ConnectionState.Open)
+                return;
+
+            command = new OleDbCommand("UPDATE Informacion_universidad.Zona SET nombre='" + name + "',ubicacion='" + location + "' WHERE id_zona=" + id.ToString(), connection);
+            command.ExecuteNonQuery();
+            connection.Close();
+            this.UpdateGrid();
+            comboBoxNames.Text = textBoxLocation.Text = "";
         }
 
         private void buttonRemove_Click(object sender, EventArgs e)
         {
+            string name = comboBoxNames.SelectedItem.ToString();
+            string location = textBoxLocation.Text;
+            connection.Open();
 
+            if (connection.State != ConnectionState.Open)
+                return;
+
+            command = new OleDbCommand("DELETE FROM Informacion_universidad.Zona WHERE id_zona=" + id.ToString(), connection);
+            command.ExecuteNonQuery();
+            connection.Close();
+            this.UpdateGrid();
+            comboBoxNames.Text = textBoxLocation.Text = "";
         }
 
         private void dataGridViewData_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            id = int.Parse(dataGridViewData.SelectedRows[0].Cells[0].Value.ToString());
+            comboBoxNames.Text = dataGridViewData.SelectedRows[0].Cells[1].Value.ToString();
+            textBoxLocation.Text = dataGridViewData.SelectedRows[0].Cells[2].Value.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -72,6 +97,9 @@ namespace Conexion_ejemplo
             adapter.Fill(table);
             dataGridViewData.DataSource = table;
             connection.Close();
+            //foreach(DataGridViewRow row in dataGridViewData.Rows)
+                
+
         }
     }
 }
