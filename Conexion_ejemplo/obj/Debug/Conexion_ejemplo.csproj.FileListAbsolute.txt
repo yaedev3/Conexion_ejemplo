@@ -1,1 +1,10 @@
 C:\Users\jason\Dropbox1\Dropbox\UASLP\8 Semestre\Admin Bases de datos\Conexion_ejemplo\Conexion_ejemplo\bin\Debug\Conexion_ejemplo.exe.config
+C:\Users\jason\Dropbox1\Dropbox\UASLP\8 Semestre\Admin Bases de datos\Programas\Conexion_ejemplo\Conexion_ejemplo\bin\Debug\Conexion_ejemplo.exe.config
+C:\Users\jason\Dropbox1\Dropbox\UASLP\8 Semestre\Admin Bases de datos\Programas\Conexion_ejemplo\Conexion_ejemplo\bin\Debug\Conexion_ejemplo.exe
+C:\Users\jason\Dropbox1\Dropbox\UASLP\8 Semestre\Admin Bases de datos\Programas\Conexion_ejemplo\Conexion_ejemplo\bin\Debug\Conexion_ejemplo.pdb
+C:\Users\jason\Dropbox1\Dropbox\UASLP\8 Semestre\Admin Bases de datos\Programas\Conexion_ejemplo\Conexion_ejemplo\obj\Debug\Conexion_ejemplo.csprojResolveAssemblyReference.cache
+C:\Users\jason\Dropbox1\Dropbox\UASLP\8 Semestre\Admin Bases de datos\Programas\Conexion_ejemplo\Conexion_ejemplo\obj\Debug\Conexion_ejemplo.Form1.resources
+C:\Users\jason\Dropbox1\Dropbox\UASLP\8 Semestre\Admin Bases de datos\Programas\Conexion_ejemplo\Conexion_ejemplo\obj\Debug\Conexion_ejemplo.Properties.Resources.resources
+C:\Users\jason\Dropbox1\Dropbox\UASLP\8 Semestre\Admin Bases de datos\Programas\Conexion_ejemplo\Conexion_ejemplo\obj\Debug\Conexion_ejemplo.csproj.GenerateResource.Cache
+C:\Users\jason\Dropbox1\Dropbox\UASLP\8 Semestre\Admin Bases de datos\Programas\Conexion_ejemplo\Conexion_ejemplo\obj\Debug\Conexion_ejemplo.exe
+C:\Users\jason\Dropbox1\Dropbox\UASLP\8 Semestre\Admin Bases de datos\Programas\Conexion_ejemplo\Conexion_ejemplo\obj\Debug\Conexion_ejemplo.pdb
